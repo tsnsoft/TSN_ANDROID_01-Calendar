@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TSN_Calendar</string>
+    <string name="messages_header">Настройки программы</string>
+    <string name="number_of_weeks">Количество недель</string>
+    <string name="note">Примечание</string>
+    <string name="adjustment_needed">Нужна ли поправка</string>
+    <string name="Выбрано">Выбрано: </string>
+    <string name="Числитель">Числитель</string>
+    <string name="Эта_дата_не_входит_в_семестр">\nЭта дата не входит в семестр</string>
+    <string name="Неделя_семестра">\nНеделя семестра: </string>
+    <string name="Знаменатель">Знаменатель</string>
+    <string name="Сейчас">\nСейчас: </string>
+    <string name="Настройки">Настройки</string>
+    <string name="about">О программе</string>
+    <string name="email">talipovsn@gmail.com</string>
+    <string name="exit">Выход</string>
+    <string name="Выберите_дату_в_календаре">Выберите дату в календаре</string>
+    <string name="Выберите_нужную_дату">Выберите нужную дату</string>
+    <string-array name="font_size_entries">
+        <item>Маленький</item>
+        <item>Средний</item>
+        <item>Большой</item>
+    </string-array>
+    <string-array name="font_size_values">
+        <item>12</item>
+        <item>16</item>
+        <item>20</item>
+    </string-array>
+</resources>

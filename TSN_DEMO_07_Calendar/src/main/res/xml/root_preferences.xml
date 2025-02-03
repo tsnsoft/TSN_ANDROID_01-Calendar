@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <EditTextPreference
+            app:key="displacementWeekSemester"
+            app:title="Количество недель"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="note"
+            app:title="Примечание"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:key="offsetNumerator"
+            app:title="Нужна ли поправка"
+            app:summaryOff="Нет"
+            app:summaryOn="Да" />
+
+        <ListPreference
+            app:key="fontSize"
+            app:title="Размер шрифта"
+            app:entries="@array/font_size_entries"
+            app:entryValues="@array/font_size_values"
+            app:defaultValue="16"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
