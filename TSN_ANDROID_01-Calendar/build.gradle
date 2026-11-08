@@ -4,14 +4,14 @@ plugins {
 
 android {
     namespace 'kz.talipovsn.calendar'
-    compileSdk 35
+    compileSdk 37
 
     defaultConfig {
         applicationId "kz.talipovsn.calendar"
         minSdk 24
-        targetSdk 35
-        versionCode 4
-        versionName "2025.02"
+        targetSdk 37
+        versionCode 5
+        versionName "2026"
     }
 
     buildTypes {

@@ -11,6 +11,9 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -19,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TSN_ANDROID_DEMO_EXAMPLES-1"
-include ':TSN_DEMO_07_Calendar'
+rootProject.name = "TSN_ANDROID_01-Calendar"
+include ':TSN_ANDROID_01-Calendar'
